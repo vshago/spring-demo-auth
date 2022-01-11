@@ -1,11 +1,11 @@
 package com.example.auth.model;
 
-import lombok.Value;
+import lombok.Data;
 
 /**
  * @author Viacheslav Shago
  */
-@Value
+@Data
 public class User {
     String clientId;
     String clientSecret;
